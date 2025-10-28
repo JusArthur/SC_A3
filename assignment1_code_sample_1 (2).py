@@ -2,6 +2,7 @@ import os
 import pymysql
 from urllib.request import urlopen
 
+# Test scanner
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
