@@ -2,12 +2,14 @@ import os
 import pymysql
 from urllib.request import urlopen
 
+# Test scanner
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
     'password': 'secret123'
 }
 
+# Random comments
 def get_user_input():
     user_input = input('Enter your name: ')
     return user_input
